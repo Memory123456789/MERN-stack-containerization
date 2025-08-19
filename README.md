@@ -1,4 +1,4 @@
-# A simple MERN stack application 
+# A simple MERN stack application - using individual dockerfile for each frontend, backend and db seperately
 
 ### Create a network for the docker containers
 
@@ -34,15 +34,13 @@ docker build -t mern-backend .
 
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
-## Using Docker Compose
+
+
+# A simple MERN stack application - using `docker compose` 
 
 `docker compose up -d`
 
-# A simple MERN stack application
-
-**Note** - To run this project using `docker compose`, follow the below steps.
-
-Switch to the `compose` branch to learn the
+# Developer Note
 
 1. Implementation of `Dockerfile` for `client` and `server`.
 2. Run the containers using `Docker Compose`.
