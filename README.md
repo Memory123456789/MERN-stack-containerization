@@ -1,4 +1,5 @@
-# A simple MERN stack application - using individual dockerfile for each frontend, backend and db seperately
+# A simple MERN stack application 
+## using individual dockerfile for each frontend, backend and db seperately
 
 ### Create a network for the docker containers
 
